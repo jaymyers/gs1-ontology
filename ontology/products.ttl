@@ -1,0 +1,12 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+
+<http://gs1.org/ns/product>
+	a owl:Ontology ;
+	rdfs:label "GS1 Global Product Classification Ontology"@en ;
+	rdfs:comment "GS1 Product Ontologies based off of Structured Commerce Classification work" ;
+	
