@@ -1,12 +1,319 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-@prefix foaf: <http://xmlns.com/foaf/0.1/>.
-@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
-@prefix dct: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix gsp: <http://gs1.org/ns/product#> .
 
 <http://gs1.org/ns/product>
 	a owl:Ontology ;
-	rdfs:label "GS1 Global Product Classification Ontology"@en ;
+	rdfs:label "GS1 Global Structured Commerce Classification Ontology"@en ;
 	rdfs:comment "GS1 Product Ontologies based off of Structured Commerce Classification work" ;
+	dct:creator [foaf:name "Jay Myers"] .
 	
+	gsp:Product a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:label "Product"@en ;
+		rdfs:comment "A GS1 recoginzed product" .
+	
+	# art
+	gsp:Art a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "Art" ;
+		rdfs:comment "Super class of all products classified as an art product" .
+		
+	# baby
+	gsp:Baby a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "Baby" ;
+		rdfs:comment "Super class of all products classified as baby products" .
+	
+	# books, music, movies
+	gsp:BooksMusicMovies a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "Books Music and Movies" ;
+		rdfs:comment "Super class of all products classified as a book, music product or movie" .		
+	
+	# book
+	gsp:Book a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:BooksMusicMovies ;
+		rdfs:label "Book" ;
+		rdfs:comment "A product that is classified as a book" .
+		
+	# catalog
+	gsp:Catalog a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:BooksMusicMovies ;
+		rdfs:label "Catalogs" ;
+		rdfs:comment "A product that is classified as a catalog" .
+	
+	# comic book
+	gsp:ComicBook a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:BooksMusicMovies ;
+		rdfs:label "Comic Books" ;
+		rdfs:comment "A product that is classified as a comic book" .
+	
+	# instructional videos	
+	gsp:InstructionalInformationalVideo a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:BooksMusicMovies ;
+		rdfs:label "Instructional & Informational Videos" ;
+		rdfs:comment "A product that is classified as an instructional & informational video" .
+	
+	# magazine
+	gsp:Magazine a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:BooksMusicMovies ;
+		rdfs:label "Magazines" ;
+		rdfs:comment "A product that is classified as a magazine" .
+	
+	# movie
+	gsp:Movie a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:BooksMusicMovies ;
+		rdfs:label "Movie" ;
+		rdfs:comment "A product that is classified as a movie product" .		
+	
+	# music
+	gsp:Music a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:BooksMusicMovies ;
+		rdfs:label "Music" ;
+		rdfs:comment "A product that is classified as a music product" .
+	
+	# newspaper
+	gsp:Newspaper a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:BooksMusicMovies ;
+		rdfs:label "Newspapers" ;
+		rdfs:comment "A product that is classified as a newspaper" .	
+	
+	# pre recorded video
+	gsp:PreRecordedDvdVideo a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:BooksMusicMovies ;
+		rdfs:label "Pre-Recorded Dvds & Video" ;
+		rdfs:comment "A product that is classified as a pre-recorded DVD & video" .
+	
+	# product manuals
+	gsp:ProductManual a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:BooksMusicMovies ;
+		rdfs:label "Product Manuals" ;
+		rdfs:comment "A product that is classified as a product manual" .
+	
+	# sheet music
+	gsp:SheetMusic a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:BooksMusicMovies ;
+		rdfs:label "Sheet Music" ;
+		rdfs:comment "A product that is classified as sheet music" .
+
+	# tv show
+	gsp:TVShow a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:BooksMusicMovies ;
+		rdfs:label "TV Shows" ;
+		rdfs:comment "A product that is classified as a TV show" .
+
+		
+	# clothing shoes & accessories
+	gsp:ClothingShoesAccessories a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "Clothing Shoes and Acessories" ;
+		rdfs:comment "Super class of all products classified as clothing, shoes or an accessory" .			
+	
+	# clothing
+	gsp:Clothing a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Clothing" ;
+		rdfs:comment "A product that is classified as clothing" .
+
+	# shoes
+	gsp:Shoes a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Shoes" ;
+		rdfs:comment "A product that is classified as shoes" .
+			
+	# accessories
+	gsp:ClothingAccessories a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Accessories" ;
+		rdfs:comment "A product that is classified as accessories" .	
+	
+	# collectibles memorabilia	
+	gsp:CollectablesMemorabilia a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "Collectibles & Memorabilia" ;
+		rdfs:comment "A product that is classified as a collectable or memorabilia" .
+
+	# crafts
+	gsp:Craft a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "Crafts" ;
+		rdfs:comment "Super class of all products classified as crafts" .
+
+	# electronics
+	gsp:Electronic a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "Consumer electronic"@en ;
+		rdfs:label "Consumer electronic"@en ;
+		rdfs:comment "A product that is classified as a consumer electronic" .	
+		
+	# gift cards
+	gsp:GiftCardCertificates a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "Gift Cards & Certificates"@en ;
+		rdfs:label "Consumer electronic"@en ;
+		rdfs:comment "A product that is classified as a gift card or gift certificate" .		
+	
+	# health and beauty
+	gsp:HealthBeauty a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "Health & Beauty"@en ;
+		rdfs:label "Health & Beauty"@en ;
+		rdfs:comment "Super class of all products classified as health and beauty" .	
+	
+	# home and garden
+	gsp:HomeGarden a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "Home & Garden"@en ;
+		rdfs:label "Home & Garden"@en ;
+		rdfs:comment "Super class of all products classified as home and garden" .
+		
+	# jewelry gems and watches
+	gsp:JewelryGemWatch a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "Jewelry Gems & Watches"@en ;
+		rdfs:label "Jewelry Gems & Watches"@en ;
+		rdfs:comment "Super class of all products classified as jewelry, gems and watches" .	
+	
+	# musical instruments and pro audio
+	gsp:MusicalInstrumentProAudio a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "Musical Instruments & Pro Audio"@en ;
+		rdfs:label "Musical Instruments & Pro Audio"@en ;
+		rdfs:comment "Super class of all products classified as musical instruments and pro audio" .	
+	
+	# office & stationery
+	gsp:OfficeStationery a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "Office & Stationery"@en ;
+		rdfs:label "Office & Stationery"@en ;
+		rdfs:comment "Super class of all products classified as office and stationery" .
+	
+	# pet supplies
+	gsp:PetSupplies a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "Pet Supplies"@en ;
+		rdfs:label "Pet Supplies"@en ;
+		rdfs:comment "Super class of all products classified as pet supplies" .	
+	
+	# real estate
+	gsp:RealEstate a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "Real Estate"@en ;
+		rdfs:label "Real Estate"@en ;
+		rdfs:comment "Super class of all products classified as real estate" .		
+	
+	# services and warranties
+	gsp:ServiceWarrany a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "Services and Warranties"@en ;
+		rdfs:label "Services and Warranties"@en ;
+		rdfs:comment "Super class of all products classified as services or warranties" .			
+	
+	# sports and outdoors
+	gsp:SportsOutdoors a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "Sports & Outdoors"@en ;
+		rdfs:label "Sports & Outdoors"@en ;
+		rdfs:comment "Super class of all products classified as sports or outdoors products" .
+	
+	# sports and outdoors
+	gsp:Ticket a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "Tickets"@en ;
+		rdfs:label "Tickets"@en ;
+		rdfs:comment "Super class of all products classified as tickets" .
+
+
+	# tools and hardware
+	gsp:ToolsHardware a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "Tools & Hardware" ;
+		rdfs:comment "Super class of all products classified as a tool or hardware product" .		
+
+	# toys and games
+	gsp:ToyGame a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "Toys & Games" ;
+		rdfs:comment "Super class of all products classified as a toy or game" .	
+		
+	# toys and games
+	gsp:TravelLuggageAcessories a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "Travel Luggage & Accessories" ;
+		rdfs:comment "Super class of all products classified as travel luggage or accessories" .				
+				
+	# vehicle parts and accessories
+	gsp:VehiclePartAccessories a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "Vehicle Parts & Accessories" ;
+		rdfs:comment "A product that is classified as a vehicle part or accessory" .				
+	
+	
+	gsp: a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label " " ;
+		rdfs:comment "" .	
+	
+	
+	# new class template
+	
+	gsp: a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Product ;
+		rdfs:label "" ;
+		rdfs:comment " " .
+		
+	
+	# universal properties
+	
+	gsp: a rdf:Property ;
+		rdfs:domain gsp:Product ;
+		rdfs:range
+		rdfs:label " " ;
+		rdfs:comment " " ;
+		
+	
+		
