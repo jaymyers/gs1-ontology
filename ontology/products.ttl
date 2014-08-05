@@ -821,7 +821,14 @@
 		rdfs:subClassOf gsp:ClothingShoesAccessories ;
 		rdfs:label "Shapewear" ;
 		rdfs:comment "A product that is classified as shapewear" .
-
+	
+	# shoes
+	gsp:Shoe a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Shoes" ;
+		rdfs:comment "A product that is classified as shoes" .
+	
 	gsp:ShoeBag a rdfs:Class, owl:Class ;
 		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
 		rdfs:subClassOf gsp:ClothingShoesAccessories ;
@@ -1170,30 +1177,8 @@
 		rdfs:label "Workwear Overalls Coveralls & Protective Pants" ;
 		rdfs:comment "A product that is classified as workwear overalls coveralls & protective pants" .
 
-	
-	
-	
-	# clothing
-	gsp:Clothing a rdfs:Class, owl:Class ;
-		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-		rdfs:subClassOf gsp:ClothingShoesAccessories ;
-		rdfs:label "Clothing" ;
-		rdfs:comment "A product that is classified as clothing" .
 
-	# shoes
-	gsp:Shoe a rdfs:Class, owl:Class ;
-		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-		rdfs:subClassOf gsp:ClothingShoesAccessories ;
-		rdfs:label "Shoes" ;
-		rdfs:comment "A product that is classified as shoes" .
-			
-	# accessories
-	gsp:ClothingAccessory a rdfs:Class, owl:Class ;
-		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-		rdfs:subClassOf gsp:ClothingShoesAccessories ;
-		rdfs:label "Clothing accessories" ;
-		rdfs:comment "A product that is classified as accessories" .	
-	
+
 	# collectibles memorabilia	
 	gsp:CollectablesMemorabilia a rdfs:Class, owl:Class ;
 		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
