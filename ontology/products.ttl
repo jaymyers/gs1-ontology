@@ -34,8 +34,7 @@
 	# books, music, movies
 	gsp:BooksMusicMovies a rdfs:Class, owl:Class ;
 		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-		rdfs:subClassOf gsp:
-		Product ;
+		rdfs:subClassOf gsp:Product ;
 		rdfs:label "Books Music and Movies"@en ;
 		rdfs:comment "Super class of all products classified as a book, music product or movie" .		
 	
