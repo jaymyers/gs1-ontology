@@ -298,7 +298,7 @@
 		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
 		rdfs:subClassOf gsp:ClothingShoesAccessories ;
 		rdfs:label "Casual & Dress Shoes" ;
-		rdfs:comment "A product that is classified as casual & dress shoe" .
+		rdfs:comment "A product that is classified as casual or dress shoe" .
 
 	gsp:CheckbookCover a rdfs:Class, owl:Class ;
 		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
@@ -324,846 +324,852 @@
 		rdfs:label "Corsets & Bustiers" ;
 		rdfs:comment "A product that is classified as a corset or bustier" .
 
-	gsp:CostumeAccessories a rdfs:Class, owl:Class ;
+	gsp:CostumeAccessory a rdfs:Class, owl:Class ;
 		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
 		rdfs:subClassOf gsp:ClothingShoesAccessories ;
 		rdfs:label "Costume Accessories" ;
-		rdfs:comment "A product that is classified as a Costume Accessories" .
-
-		gsp:CostumeBottoms a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Costume Bottoms" ;
-			rdfs:comment "A product that is classified as a Costume Bottoms" .
-
-		gsp:CostumeHeadwear a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Costume Headwear" ;
-			rdfs:comment "A product that is classified as a Costume Headwear" .
-
-		gsp:CostumeMasks a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Costume Masks" ;
-			rdfs:comment "A product that is classified as a Costume Masks" .
-
-		gsp:CostumeProsthetics a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Costume Prosthetics" ;
-			rdfs:comment "A product that is classified as a Costume Prosthetics" .
-
-		gsp:CostumeShoes a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Costume Shoes" ;
-			rdfs:comment "A product that is classified as a Costume Shoes" .
-
-		gsp:CostumeTops a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Costume Tops" ;
-			rdfs:comment "A product that is classified as a Costume Tops" .
-
-		gsp:CostumeWigs a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Costume Wigs" ;
-			rdfs:comment "A product that is classified as a Costume Wigs" .
-
-		gsp:Costumes a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Costumes" ;
-			rdfs:comment "A product that is classified as a Costumes" .
-
-		gsp:CummerbundBowTieSets a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Cummerbund & Bow Tie Sets" ;
-			rdfs:comment "A product that is classified as a Cummerbund & Bow Tie Sets" .
-
-		gsp:Cummerbunds a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Cummerbunds" ;
-			rdfs:comment "A product that is classified as a Cummerbunds" .
-
-		gsp:DisposableShoeCovers a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Disposable Shoe Covers" ;
-			rdfs:comment "A product that is classified as a Disposable Shoe Covers" .
-
-		gsp:Dresses a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Dresses" ;
-			rdfs:comment "A product that is classified as a Dresses" .
-
-		gsp:EarWarmers a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Ear Warmers" ;
-			rdfs:comment "A product that is classified as a Ear Warmers" .
-
-		gsp:EthnicTraditionalAccessories a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Ethnic Traditional Accessories" ;
-			rdfs:comment "A product that is classified as a Ethnic Traditional Accessories" .
-
-		gsp:EthnicTraditionalBottoms a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Ethnic Traditional Bottoms" ;
-			rdfs:comment "A product that is classified as a Ethnic Traditional Bottoms" .
-
-		gsp:EthnicTraditionalFull-BodyGarments a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Ethnic Traditional Full-Body Garments" ;
-			rdfs:comment "A product that is classified as a Ethnic Traditional Full-Body Garments" .
-
-		gsp:EthnicTraditionalTops a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Ethnic Traditional Tops" ;
-			rdfs:comment "A product that is classified as a Ethnic Traditional Tops" .
-
-		gsp:EyeglassChainsCords a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Eyeglass Chains & Cords" ;
-			rdfs:comment "A product that is classified as a Eyeglass Chains & Cords" .
-
-		gsp:Fascinators a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Fascinators" ;
-			rdfs:comment "A product that is classified as a Fascinators" .
-
-		gsp:FashionSweatshirts a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Fashion Sweatshirts" ;
-			rdfs:comment "A product that is classified as a Fashion Sweatshirts" .
-
-		gsp:Footwear a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Footwear" ;
-			rdfs:comment "A product that is classified as a Footwear" .
-
-		gsp:FootwearAccessories a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Footwear Accessories" ;
-			rdfs:comment "A product that is classified as a Footwear Accessories" .
-
-		gsp:Full-BodyCostumes a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Full-Body Costumes" ;
-			rdfs:comment "A product that is classified as a Full-Body Costumes" .
-
-		gsp:Full-BodyWear a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Full-Body Wear" ;
-			rdfs:comment "A product that is classified as a Full-Body Wear" .
-
-		gsp:GarterBelts a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Garter Belts" ;
-			rdfs:comment "A product that is classified as a Garter Belts" .
-
-		gsp:Garters a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Garters" ;
-			rdfs:comment "A product that is classified as a Garters" .
-
-		gsp:Gloves a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Gloves" ;
-			rdfs:comment "A product that is classified as a Gloves" .
-
-		gsp:GownPreservationKits a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Gown Preservation Kits" ;
-			rdfs:comment "A product that is classified as a Gown Preservation Kits" .
-
-		gsp:Hairaccessories a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Hair accessories" ;
-			rdfs:comment "A product that is classified as a Hair accessories" .
-
-		gsp:HandFans a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Hand Fans" ;
-			rdfs:comment "A product that is classified as a Hand Fans" .
-
-		gsp:HandbagWalletAccessories a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Handbag & Wallet Accessories" ;
-			rdfs:comment "A product that is classified as a Handbag & Wallet Accessories" .
-
-		gsp:HandbagHookHangers a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Handbag Hook Hangers" ;
-			rdfs:comment "A product that is classified as a Handbag Hook Hangers" .
-
-		gsp:HandbagOrganizersInserts a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Handbag Organizers & Inserts" ;
-			rdfs:comment "A product that is classified as a Handbag Organizers & Inserts" .
-
-		gsp:Handbags a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Handbags" ;
-			rdfs:comment "A product that is classified as a Handbags" .
-
-		gsp:HandbagsWallets a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Handbags & Wallets" ;
-			rdfs:comment "A product that is classified as a Handbags & Wallets" .
-
-		gsp:Handkerchiefs a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Handkerchiefs" ;
-			rdfs:comment "A product that is classified as a Handkerchiefs" .
-
-		gsp:HatBoxes a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Hat Boxes" ;
-			rdfs:comment "A product that is classified as a Hat Boxes" .
-
-		gsp:Hats a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Hats" ;
-			rdfs:comment "A product that is classified as a Hats" .
-
-		gsp:HighHeelProtectors a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "High Heel Protectors" ;
-			rdfs:comment "A product that is classified as a High Heel Protectors" .
-
-		gsp:HistoricalReenactmentApparel a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Historical Reenactment Apparel" ;
-			rdfs:comment "A product that is classified as a Historical Reenactment Apparel" .
-
-		gsp:HosieryTights a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Hosiery & Tights" ;
-			rdfs:comment "A product that is classified as a Hosiery & Tights" .
-
-		gsp:IntimateAccessories a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Intimate Accessories" ;
-			rdfs:comment "A product that is classified as a Intimate Accessories" .
-
-		gsp:Jeans a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Jeans" ;
-			rdfs:comment "A product that is classified as a Jeans" .
-
-		gsp:JumpsuitsRompers a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Jumpsuits & Rompers" ;
-			rdfs:comment "A product that is classified as a Jumpsuits & Rompers" .
-
-		gsp:Keychains a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Keychains" ;
-			rdfs:comment "A product that is classified as a Keychains" .
-
-		gsp:LayetteSets a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Layette Sets" ;
-			rdfs:comment "A product that is classified as a Layette Sets" .
-
-		gsp:LeatherSuedeCare a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Leather & Suede Care" ;
-			rdfs:comment "A product that is classified as a Leather & Suede Care" .
-
-		gsp:LeatherSuedeDye a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Leather & Suede Dye" ;
-			rdfs:comment "A product that is classified as a Leather & Suede Dye" .
-
-		gsp:LegWarmers a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Leg Warmers" ;
-			rdfs:comment "A product that is classified as a Leg Warmers" .
-
-		gsp:LingerieCamisoles a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Lingerie Camisoles" ;
-			rdfs:comment "A product that is classified as a Lingerie Camisoles" .
-
-		gsp:LingerieSets a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Lingerie Sets" ;
-			rdfs:comment "A product that is classified as a Lingerie Sets" .
-
-		gsp:LongUnderwear a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Long Underwear" ;
-			rdfs:comment "A product that is classified as a Long Underwear" .
-
-		gsp:MaternitySupportGarments a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Maternity Support Garments" ;
-			rdfs:comment "A product that is classified as a Maternity Support Garments" .
-
-		gsp:MilitaryUniforms a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Military Uniforms" ;
-			rdfs:comment "A product that is classified as a Military Uniforms" .
-
-		gsp:Mittens a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Mittens" ;
-			rdfs:comment "A product that is classified as a Mittens" .
-
-		gsp:MoneyClips a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Money Clips" ;
-			rdfs:comment "A product that is classified as a Money Clips" .
-
-		gsp:Neckties a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Neckties" ;
-			rdfs:comment "A product that is classified as a Neckties" .
-
-		gsp:NightgownsSleepshirts a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Nightgowns & Sleepshirts" ;
-			rdfs:comment "A product that is classified as a Nightgowns & Sleepshirts" .
-
-		gsp:NippleCovers a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Nipple Covers" ;
-			rdfs:comment "A product that is classified as a Nipple Covers" .
-
-		gsp:One-PieceSwimsuits a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "One-Piece Swimsuits" ;
-			rdfs:comment "A product that is classified as a One-Piece Swimsuits" .
-
-		gsp:Outerwear a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Outerwear" ;
-			rdfs:comment "A product that is classified as a Outerwear" .
-
-		gsp:OuterwearCoatsJackets a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Outerwear Coats & Jackets" ;
-			rdfs:comment "A product that is classified as a Outerwear Coats & Jackets" .
-
-		gsp:OuterwearVests a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Outerwear Vests" ;
-			rdfs:comment "A product that is classified as a Outerwear Vests" .
-
-		gsp:Overalls a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Overalls" ;
-			rdfs:comment "A product that is classified as a Overalls" .
-
-		gsp:Overshoes a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Overshoes" ;
-			rdfs:comment "A product that is classified as a Overshoes" .
-
-		gsp:Pajamas a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Pajamas" ;
-			rdfs:comment "A product that is classified as a Pajamas" .
-
-		gsp:PantSuits a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Pant Suits" ;
-			rdfs:comment "A product that is classified as a Pant Suits" .
-
-		gsp:Pants a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Pants" ;
-			rdfs:comment "A product that is classified as a Pants" .
-
-		gsp:Parasols a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Parasols" ;
-			rdfs:comment "A product that is classified as a Parasols" .
-
-		gsp:PocketSquares a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Pocket Squares" ;
-			rdfs:comment "A product that is classified as a Pocket Squares" .
-
-		gsp:Polos a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Polos" ;
-			rdfs:comment "A product that is classified as a Polos" .
-
-		gsp:RainUmbrellas a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Rain Umbrellas" ;
-			rdfs:comment "A product that is classified as a Rain Umbrellas" .
-
-		gsp:RashGuards a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Rash Guards" ;
-			rdfs:comment "A product that is classified as a Rash Guards" .
-
-		gsp:ReligiousVestmentAccessories a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Religious Vestment Accessories" ;
-			rdfs:comment "A product that is classified as a Religious Vestment Accessories" .
-
-		gsp:Rugbys a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Rugbys" ;
-			rdfs:comment "A product that is classified as a Rugbys" .
-
-		gsp:SafetyShoesBoots a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Safety Shoes & Boots" ;
-			rdfs:comment "A product that is classified as a Safety Shoes & Boots" .
-
-		gsp:Sandals a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Sandals" ;
-			rdfs:comment "A product that is classified as a Sandals" .
-
-		gsp:Sashes a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Sashes" ;
-			rdfs:comment "A product that is classified as a Sashes" .
-
-		gsp:"Scarves a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ShawlsWraps" ;
-			rdfs:label ""Scarves" ;
-			rdfs:comment "A product that is classified as a "Scarves" .
-
-		gsp:SchoolUniforms a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "School Uniforms" ;
-			rdfs:comment "A product that is classified as a School Uniforms" .
-
-		gsp:ScoutingUniforms a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Scouting Uniforms" ;
-			rdfs:comment "A product that is classified as a Scouting Uniforms" .
-
-		gsp:Shapewear a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Shapewear" ;
-			rdfs:comment "A product that is classified as a Shapewear" .
-
-		gsp:ShoeBags a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Shoe Bags" ;
-			rdfs:comment "A product that is classified as a Shoe Bags" .
-
-		gsp:ShoeBrushes a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Shoe Brushes" ;
-			rdfs:comment "A product that is classified as a Shoe Brushes" .
-
-		gsp:ShoeCareAccessories a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Shoe Care Accessories" ;
-			rdfs:comment "A product that is classified as a Shoe Care Accessories" .
-
-		gsp:ShoeCareKits a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Shoe Care Kits" ;
-			rdfs:comment "A product that is classified as a Shoe Care Kits" .
-
-		gsp:ShoeDecorationCharms a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Shoe Decoration Charms" ;
-			rdfs:comment "A product that is classified as a Shoe Decoration Charms" .
-
-		gsp:ShoeDryers a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Shoe Dryers" ;
-			rdfs:comment "A product that is classified as a Shoe Dryers" .
-
-		gsp:ShoeHornsBootJacks a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Shoe Horns & Boot Jacks" ;
-			rdfs:comment "A product that is classified as a Shoe Horns & Boot Jacks" .
-
-		gsp:ShoeIceSnowGrips a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Shoe Ice & Snow Grips" ;
-			rdfs:comment "A product that is classified as a Shoe Ice & Snow Grips" .
-
-		gsp:ShoeMeasuringDevices a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Shoe Measuring Devices" ;
-			rdfs:comment "A product that is classified as a Shoe Measuring Devices" .
-
-		gsp:ShoePolish a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Shoe Polish" ;
-			rdfs:comment "A product that is classified as a Shoe Polish" .
-
-		gsp:ShoeRepairGlue a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Shoe Repair Glue" ;
-			rdfs:comment "A product that is classified as a Shoe Repair Glue" .
-
-		gsp:ShoeReplacementSolesHeels a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Shoe Replacement Soles & Heels" ;
-			rdfs:comment "A product that is classified as a Shoe Replacement Soles & Heels" .
-
-		gsp:ShoeTreesBootShapers a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Shoe Trees & Boot Shapers" ;
-			rdfs:comment "A product that is classified as a Shoe Trees & Boot Shapers" .
-
-		gsp:Shoelaces a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Shoelaces" ;
-			rdfs:comment "A product that is classified as a Shoelaces" .
-
-		gsp:Shorts a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Shorts" ;
-			rdfs:comment "A product that is classified as a Shorts" .
-
-		gsp:ShrugsBoleros a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Shrugs & Boleros" ;
-			rdfs:comment "A product that is classified as a Shrugs & Boleros" .
-
-		gsp:SkirtSuits a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Skirt Suits" ;
-			rdfs:comment "A product that is classified as a Skirt Suits" .
-
-		gsp:Skirts a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Skirts" ;
-			rdfs:comment "A product that is classified as a Skirts" .
-
-		gsp:Skorts a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Skorts" ;
-			rdfs:comment "A product that is classified as a Skorts" .
-
-		gsp:SleepwearRobesBathrobes a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Sleepwear Robes & Bathrobes" ;
-			rdfs:comment "A product that is classified as a Sleepwear Robes & Bathrobes" .
-
-		gsp:Slippers a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Slippers" ;
-			rdfs:comment "A product that is classified as a Slippers" .
-
-		gsp:Slips a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Slips" ;
-			rdfs:comment "A product that is classified as a Slips" .
-
-		gsp:Socks a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Socks" ;
-			rdfs:comment "A product that is classified as a Socks" .
-
-		gsp:"SuitJackets a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:BlazersSportCoats" ;
-			rdfs:label ""Suit Jackets" ;
-			rdfs:comment "A product that is classified as a "Suit Jackets" .
-
-		gsp:Sunglasses a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Sunglasses" ;
-			rdfs:comment "A product that is classified as a Sunglasses" .
-
-		gsp:SunglassesReplacementLenses a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Sunglasses Replacement Lenses" ;
-			rdfs:comment "A product that is classified as a Sunglasses Replacement Lenses" .
-
-		gsp:Suspenders a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Suspenders" ;
-			rdfs:comment "A product that is classified as a Suspenders" .
-
-		gsp:Sweaters a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Sweaters" ;
-			rdfs:comment "A product that is classified as a Sweaters" .
-
-		gsp:Swimwear a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Swimwear" ;
-			rdfs:comment "A product that is classified as a Swimwear" .
-
-		gsp:SwimwearBottoms a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Swimwear Bottoms" ;
-			rdfs:comment "A product that is classified as a Swimwear Bottoms" .
-
-		gsp:SwimwearCover-Ups a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Swimwear Cover-Ups" ;
-			rdfs:comment "A product that is classified as a Swimwear Cover-Ups" .
-
-		gsp:SwimwearSets a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Swimwear Sets" ;
-			rdfs:comment "A product that is classified as a Swimwear Sets" .
-
-		gsp:SwimwearTops a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Swimwear Tops" ;
-			rdfs:comment "A product that is classified as a Swimwear Tops" .
-
-		gsp:TailoredFashionVests a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Tailored & Fashion Vests" ;
-			rdfs:comment "A product that is classified as a Tailored & Fashion Vests" .
-
-		gsp:TeddiesBodystockings a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Teddies & Bodystockings" ;
-			rdfs:comment "A product that is classified as a Teddies & Bodystockings" .
-
-		gsp:"Tiaras a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:CrownsWreaths" ;
-			rdfs:label ""Tiaras" ;
-			rdfs:comment "A product that is classified as a "Tiaras" .
-
-		gsp:Tops a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Tops" ;
-			rdfs:comment "A product that is classified as a Tops" .
-
-		gsp:TraditionalGarmentsAccessories a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Traditional Garments & Accessories" ;
-			rdfs:comment "A product that is classified as a Traditional Garments & Accessories" .
-
-		gsp:T-Shirts a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "T-Shirts" ;
-			rdfs:comment "A product that is classified as a T-Shirts" .
-
-		gsp:Tuxedos a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Tuxedos" ;
-			rdfs:comment "A product that is classified as a Tuxedos" .
-
-		gsp:UndergarmentsNightwear a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Undergarments & Nightwear" ;
-			rdfs:comment "A product that is classified as a Undergarments & Nightwear" .
-
-		gsp:UnderpantsPanties a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Underpants & Panties" ;
-			rdfs:comment "A product that is classified as a Underpants & Panties" .
-
-		gsp:Undershirts a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Undershirts" ;
-			rdfs:comment "A product that is classified as a Undershirts" .
-
-		gsp:Uniforms a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Uniforms" ;
-			rdfs:comment "A product that is classified as a Uniforms" .
-
-		gsp:Veils a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Veils" ;
-			rdfs:comment "A product that is classified as a Veils" .
-
-		gsp:Wallets a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Wallets" ;
-			rdfs:comment "A product that is classified as a Wallets" .
-
-		gsp:WeddingDresses a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Wedding Dresses" ;
-			rdfs:comment "A product that is classified as a Wedding Dresses" .
-
-		gsp:WorkwearUniformAprons a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Workwear & Uniform Aprons" ;
-			rdfs:comment "A product that is classified as a Workwear & Uniform Aprons" .
-
-		gsp:WorkwearUniformBadges a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Workwear & Uniform Badges" ;
-			rdfs:comment "A product that is classified as a Workwear & Uniform Badges" .
-
-		gsp:WorkwearUniformBottoms a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Workwear & Uniform Bottoms" ;
-			rdfs:comment "A product that is classified as a Workwear & Uniform Bottoms" .
-
-		gsp:WorkwearUniformDresses a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Workwear & Uniform Dresses" ;
-			rdfs:comment "A product that is classified as a Workwear & Uniform Dresses" .
-
-		gsp:WorkwearUniformHats a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Workwear & Uniform Hats" ;
-			rdfs:comment "A product that is classified as a Workwear & Uniform Hats" .
-
-		gsp:WorkwearUniformJacketsCoats a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Workwear & Uniform Jackets & Coats" ;
-			rdfs:comment "A product that is classified as a Workwear & Uniform Jackets & Coats" .
-
-		gsp:WorkwearUniformOutfitSets a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Workwear & Uniform Outfit Sets" ;
-			rdfs:comment "A product that is classified as a Workwear & Uniform Outfit Sets" .
-
-		gsp:WorkwearUniformRobes a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Workwear & Uniform Robes" ;
-			rdfs:comment "A product that is classified as a Workwear & Uniform Robes" .
-
-		gsp:WorkwearUniformTops a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Workwear & Uniform Tops" ;
-			rdfs:comment "A product that is classified as a Workwear & Uniform Tops" .
-
-		gsp:WorkwearUniformVests a rdfs:Class, owl:Class ;
-			rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
-			rdfs:subClassOf gsp:ClothingShoesAccessories ;
-			rdfs:label "Workwear & Uniform Vests" ;
-			rdfs:comment "A product that is classified as a Workwear & Uniform Vests" .	
-	
+		rdfs:comment "A product that is classified as a costume accessory" .
+
+	gsp:CostumeBottom a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Costume Bottoms" ;
+		rdfs:comment "A product that is classified as a costume bottom" .
+
+	gsp:CostumeHeadwear a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Costume Headwear" ;
+		rdfs:comment "A product that is classified as costume headwear" .
+
+	gsp:CostumeMask a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Costume Masks" ;
+		rdfs:comment "A product that is classified as a costume mask" .
+
+	gsp:CostumeProsthetic a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Costume Prosthetics" ;
+		rdfs:comment "A product that is classified as a costume prosthetic" .
+
+	gsp:CostumeShoe a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Costume Shoes" ;
+		rdfs:comment "A product that is classified as a costume shoe" .
+
+	gsp:CostumeTop a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Costume Tops" ;
+		rdfs:comment "A product that is classified as a costume top" .
+
+	gsp:CostumeWig a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Costume Wigs" ;
+		rdfs:comment "A product that is classified as a costume wig" .
+
+	gsp:Costume a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Costumes" ;
+		rdfs:comment "A product that is classified as a costume" .
+
+	gsp:CummerbundBowTieSet a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Cummerbund & Bow Tie Sets" ;
+		rdfs:comment "A product that is classified as cummerbund & bow tie sets" .
+
+	gsp:Cummerbund a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Cummerbunds" ;
+		rdfs:comment "A product that is classified as cummerbunds" .
+
+	gsp:DisposableShoeCover a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Disposable Shoe Covers" ;
+		rdfs:comment "A product that is classified as disposable shoe covers" .
+
+	gsp:Dress a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Dresses" ;
+		rdfs:comment "A product that is classified as dresses" .
+
+	gsp:EarWarmer a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Ear Warmers" ;
+		rdfs:comment "A product that is classified as ear warmers" .
+
+	gsp:EthnicTraditionalAccessory a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Ethnic Traditional Accessories" ;
+		rdfs:comment "A product that is classified as ethnic traditional accessories" .
+
+	gsp:EthnicTraditionalBottom a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Ethnic Traditional Bottoms" ;
+		rdfs:comment "A product that is classified as ethnic traditional bottoms" .
+
+	gsp:EthnicTraditionalFullBodyGarment a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Ethnic Traditional Full-Body Garments" ;
+		rdfs:comment "A product that is classified as ethnic traditional full-body garments" .
+
+	gsp:EthnicTraditionalTop a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Ethnic Traditional Tops" ;
+		rdfs:comment "A product that is classified as ethnic traditional tops" .
+
+	gsp:EyeglassChainsCord a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Eyeglass Chains & Cords" ;
+		rdfs:comment "A product that is classified as eyeglass chains & cords" .
+
+	gsp:Fascinator a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Fascinators" ;
+		rdfs:comment "A product that is classified as fascinators" .
+
+	gsp:FashionSweatshirt a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Fashion Sweatshirts" ;
+		rdfs:comment "A product that is classified as fashion sweatshirts" .
+
+	gsp:Footwear a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Footwear" ;
+		rdfs:comment "A product that is classified as footwear" .
+
+	gsp:FootwearAccessory a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Footwear Accessories" ;
+		rdfs:comment "A product that is classified as footwear accessories" .
+
+	gsp:FullBodyCostume a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Full-Body Costumes" ;
+		rdfs:comment "A product that is classified as full-body costumes" .
+
+	gsp:FullBodyWear a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Full-Body Wear" ;
+		rdfs:comment "A product that is classified as full-body wear" .
+
+	gsp:GarterBelt a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Garter Belts" ;
+		rdfs:comment "A product that is classified as garter belts" .
+
+	gsp:Garter a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Garters" ;
+		rdfs:comment "A product that is classified as garters" .
+
+	gsp:Glove a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Gloves" ;
+		rdfs:comment "A product that is classified as gloves" .
+
+	gsp:GownPreservationKit a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Gown Preservation Kits" ;
+		rdfs:comment "A product that is classified as gown preservation kits" .
+
+	gsp:Hairaccessory a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Hair accessories" ;
+		rdfs:comment "A product that is classified as hair accessories" .
+
+	gsp:HandFan a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Hand Fans" ;
+		rdfs:comment "A product that is classified as hand fans" .
+
+	gsp:HandbagWalletAccessory a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Handbag & Wallet Accessories" ;
+		rdfs:comment "A product that is classified as handbag & wallet accessories" .
+
+	gsp:HandbagHookHanger a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Handbag Hook Hangers" ;
+		rdfs:comment "A product that is classified as handbag hook hangers" .
+
+	gsp:HandbagOrganizersInsert a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Handbag Organizers & Inserts" ;
+		rdfs:comment "A product that is classified as handbag organizers & inserts" .
+
+	gsp:Handbag a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Handbags" ;
+		rdfs:comment "A product that is classified as handbags" .
+
+	gsp:HandbagsWallet a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Handbags & Wallets" ;
+		rdfs:comment "A product that is classified as handbags & wallets" .
+
+	gsp:Handkerchief a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Handkerchiefs" ;
+		rdfs:comment "A product that is classified as handkerchiefs" .
+
+	gsp:HatBox a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Hat Boxes" ;
+		rdfs:comment "A product that is classified as hat boxes" .
+
+	gsp:Hat a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Hats" ;
+		rdfs:comment "A product that is classified as hats" .
+
+	gsp:HighHeelProtector a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "High Heel Protectors" ;
+		rdfs:comment "A product that is classified as high heel protectors" .
+
+	gsp:HistoricalReenactmentApparel a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Historical Reenactment Apparel" ;
+		rdfs:comment "A product that is classified as historical reenactment apparel" .
+
+	gsp:HosieryTight a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Hosiery & Tights" ;
+		rdfs:comment "A product that is classified as hosiery & tights" .
+
+	gsp:IntimateAccessory a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Intimate Accessories" ;
+		rdfs:comment "A product that is classified as intimate accessories" .
+
+	gsp:Jeans a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Jeans" ;
+		rdfs:comment "A product that is classified as jeans" .
+
+	gsp:JumpsuitsRomper a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Jumpsuits & Rompers" ;
+		rdfs:comment "A product that is classified as jumpsuits & rompers" .
+
+	gsp:Keychain a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Keychains" ;
+		rdfs:comment "A product that is classified as keychains" .
+
+	gsp:LayetteSet a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Layette Sets" ;
+		rdfs:comment "A product that is classified as layette sets" .
+
+	gsp:LeatherSuedeCare a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Leather & Suede Care" ;
+		rdfs:comment "A product that is classified as leather & suede care" .
+
+	gsp:LeatherSuedeDye a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Leather & Suede Dye" ;
+		rdfs:comment "A product that is classified as leather & suede dye" .
+
+	gsp:LegWarmer a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Leg Warmers" ;
+		rdfs:comment "A product that is classified as leg warmers" .
+
+	gsp:LingerieCamisole a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Lingerie Camisoles" ;
+		rdfs:comment "A product that is classified as lingerie camisoles" .
+
+	gsp:LingerieSet a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Lingerie Sets" ;
+		rdfs:comment "A product that is classified as lingerie sets" .
+
+	gsp:LongUnderwear a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Long Underwear" ;
+		rdfs:comment "A product that is classified as long underwear" .
+
+	gsp:MaternitySupportGarment a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Maternity Support Garments" ;
+		rdfs:comment "A product that is classified as maternity support garments" .
+
+	gsp:MilitaryUniform a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Military Uniforms" ;
+		rdfs:comment "A product that is classified as military uniforms" .
+
+	gsp:Mitten a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Mittens" ;
+		rdfs:comment "A product that is classified as mittens" .
+
+	gsp:MoneyClip a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Money Clips" ;
+		rdfs:comment "A product that is classified as money clips" .
+
+	gsp:Necktie a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Neckties" ;
+		rdfs:comment "A product that is classified as neckties" .
+
+	gsp:NightgownsSleepshirt a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Nightgowns & Sleepshirts" ;
+		rdfs:comment "A product that is classified as nightgowns & sleepshirts" .
+
+	gsp:NippleCover a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Nipple Covers" ;
+		rdfs:comment "A product that is classified as nipple covers" .
+
+	gsp:OnePieceSwimsuit a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "One-Piece Swimsuits" ;
+		rdfs:comment "A product that is classified as one-piece swimsuits" .
+
+	gsp:Outerwear a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Outerwear" ;
+		rdfs:comment "A product that is classified as outerwear" .
+
+	gsp:OuterwearCoatJacket a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Outerwear ;
+		rdfs:label "Outerwear Coats & Jackets" ;
+		rdfs:comment "A product that is classified as outerwear coats & jackets" .
+
+	gsp:OuterwearVests a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Outerwear ;
+		rdfs:label "Outerwear Vests" ;
+		rdfs:comment "A product that is classified as outerwear vests" .
+
+	gsp:Overalls a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Overalls" ;
+		rdfs:comment "A product that is classified as overalls" .
+
+	gsp:Overshoe a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Overshoes" ;
+		rdfs:comment "A product that is classified as overshoes" .
+
+	gsp:Pajamas a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Pajamas" ;
+		rdfs:comment "A product that is classified as pajamas" .
+
+	gsp:PantSuit a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Pant Suits" ;
+		rdfs:comment "A product that is classified as pant suits" .
+
+	gsp:Pants a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Pants" ;
+		rdfs:comment "A product that is classified as pants" .
+
+	gsp:Parasol a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Parasols" ;
+		rdfs:comment "A product that is classified as parasols" .
+
+	gsp:PocketSquare a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Pocket Squares" ;
+		rdfs:comment "A product that is classified as pocket squares" .
+
+	gsp:Polo a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Polos" ;
+		rdfs:comment "A product that is classified as polos" .
+
+	gsp:RainUmbrella a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Rain Umbrellas" ;
+		rdfs:comment "A product that is classified as rain umbrellas" .
+
+	gsp:RashGuard a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Rash Guards" ;
+		rdfs:comment "A product that is classified as rash guards" .
+
+	gsp:ReligiousVestmentAccessory a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Religious Vestment Accessories" ;
+		rdfs:comment "A product that is classified as religious vestment accessories" .
+
+	gsp:Rugby a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Rugbys" ;
+		rdfs:comment "A product that is classified as rugbys" .
+
+	gsp:SafetyShoeBoot a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Safety Shoes & Boots" ;
+		rdfs:comment "A product that is classified as safety shoes & boots" .
+
+	gsp:Sandal a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Sandals" ;
+		rdfs:comment "A product that is classified as sandals" .
+
+	gsp:Sash a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Sashes" ;
+		rdfs:comment "A product that is classified as sashes" .
+
+	gsp:ScarveShawlWrap a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Scarves Shawls & Wraps" ;
+		rdfs:comment "A product that is classified as scarves shawls & wraps" .
+
+	gsp:SchoolUniform a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "School Uniforms" ;
+		rdfs:comment "A product that is classified as school uniforms" .
+
+	gsp:ScoutingUniform a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Scouting Uniforms" ;
+		rdfs:comment "A product that is classified as scouting uniforms" .
+
+	gsp:Shapewear a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Shapewear" ;
+		rdfs:comment "A product that is classified as shapewear" .
+
+	gsp:ShoeBag a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Shoe Bags" ;
+		rdfs:comment "A product that is classified as shoe bags" .
+
+	gsp:ShoeBrush a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Shoe Brushes" ;
+		rdfs:comment "A product that is classified as shoe brushes" .
+
+	gsp:ShoeCareAccessory a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Shoe Care Accessories" ;
+		rdfs:comment "A product that is classified as shoe care accessories" .
+
+	gsp:ShoeCareKit a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Shoe Care Kits" ;
+		rdfs:comment "A product that is classified as shoe care kits" .
+
+	gsp:ShoeDecorationCharm a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Shoe Decoration Charms" ;
+		rdfs:comment "A product that is classified as shoe decoration charms" .
+
+	gsp:ShoeDryer a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Shoe Dryers" ;
+		rdfs:comment "A product that is classified as shoe dryers" .
+
+	gsp:ShoeHornBootJack a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Shoe Horns & Boot Jacks" ;
+		rdfs:comment "A product that is classified as shoe horns & boot jacks" .
+
+	gsp:ShoeIceSnowGrip a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Shoe Ice & Snow Grips" ;
+		rdfs:comment "A product that is classified as shoe ice & snow grips" .
+
+	gsp:ShoeMeasuringDevice a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Shoe Measuring Devices" ;
+		rdfs:comment "A product that is classified as shoe measuring devices" .
+
+	gsp:ShoePolish a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Shoe Polish" ;
+		rdfs:comment "A product that is classified as shoe polish" .
+
+	gsp:ShoeRepairGlue a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Shoe Repair Glue" ;
+		rdfs:comment "A product that is classified as shoe repair glue" .
+
+	gsp:ShoeReplacementSoleHeel a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Shoe Replacement Soles & Heels" ;
+		rdfs:comment "A product that is classified as shoe replacement soles & heels" .
+
+	gsp:ShoeTreeBootShaper a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Shoe Trees & Boot Shapers" ;
+		rdfs:comment "A product that is classified as shoe trees & boot shapers" .
+
+	gsp:Shoelace a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Shoelaces" ;
+		rdfs:comment "A product that is classified as shoelaces" .
+
+	gsp:Shorts a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Shorts" ;
+		rdfs:comment "A product that is classified as shorts" .
+
+	gsp:ShrugBolero a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Shrugs & Boleros" ;
+		rdfs:comment "A product that is classified as shrugs & boleros" .
+
+	gsp:SkirtSuit a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Skirt Suits" ;
+		rdfs:comment "A product that is classified as skirt suits" .
+
+	gsp:Skirt a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Skirts" ;
+		rdfs:comment "A product that is classified as skirts" .
+
+	gsp:Skorts a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Skorts" ;
+		rdfs:comment "A product that is classified as skorts" .
+
+	gsp:SleepwearRobeBathrobe a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Sleepwear Robes & Bathrobes" ;
+		rdfs:comment "A product that is classified as sleepwear robes & bathrobes" .
+
+	gsp:Slippers a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Slippers" ;
+		rdfs:comment "A product that is classified as slippers" .
+
+	gsp:Slip a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Slips" ;
+		rdfs:comment "A product that is classified as slips" .
+
+	gsp:Socks a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Socks" ;
+		rdfs:comment "A product that is classified as socks" .
+
+	gsp:SuitJacketBlazerSportCoat a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Suit Jackets Blazers & Sport Coats" ;
+		rdfs:comment "A product that is classified as suit jackets blazers & sport coats" .
+
+	gsp:Sunglasses a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Sunglasses" ;
+		rdfs:comment "A product that is classified as sunglasses" .
+
+	gsp:SunglassesReplacementLens a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Sunglasses Replacement Lenses" ;
+		rdfs:comment "A product that is classified as sunglasses replacement lenses" .
+
+	gsp:Suspenders a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Suspenders" ;
+		rdfs:comment "A product that is classified as suspenders" .
+
+	gsp:Sweater a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Sweaters" ;
+		rdfs:comment "A product that is classified as sweaters" .
+
+	gsp:Swimwear a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Swimwear" ;
+		rdfs:comment "A product that is classified as swimwear" .
+
+	gsp:SwimwearBottoms a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Swimwear ;
+		rdfs:label "Swimwear Bottoms" ;
+		rdfs:comment "A product that is classified as swimwear bottoms" .
+
+	gsp:SwimwearCoverUp a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Swimwear ;
+		rdfs:label "Swimwear Cover-Ups" ;
+		rdfs:comment "A product that is classified as swimwear cover-ups" .
+
+	gsp:SwimwearSet a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Swimwear ;
+		rdfs:label "Swimwear Sets" ;
+		rdfs:comment "A product that is classified as swimwear sets" .
+
+	gsp:SwimwearTops a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:Swimwear ;
+		rdfs:label "Swimwear Tops" ;
+		rdfs:comment "A product that is classified as swimwear tops" .
+
+	gsp:TailoredFashionVest a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Tailored & Fashion Vests" ;
+		rdfs:comment "A product that is classified as tailored & fashion vests" .
+
+	gsp:TeddiesBodystocking a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Teddies & Bodystockings" ;
+		rdfs:comment "A product that is classified as teddies & bodystockings" .
+
+	gsp:TiaraCrownWreath a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Tiaras Crowns & Wreaths" ;
+		rdfs:comment "A product that is classified as tiaras crowns & wreaths" .
+
+	gsp:Top a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Tops" ;
+		rdfs:comment "A product that is classified as tops" .
+
+	gsp:TraditionalGarmentAccessory a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Traditional Garments & Accessories" ;
+		rdfs:comment "A product that is classified as traditional garments & accessories" .
+
+	gsp:TShirt a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "T-Shirts" ;
+		rdfs:comment "A product that is classified as t-shirts" .
+
+	gsp:Tuxedo a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Tuxedos" ;
+		rdfs:comment "A product that is classified as tuxedos" .
+
+	gsp:UndergarmentNightwear a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Undergarments & Nightwear" ;
+		rdfs:comment "A product that is classified as undergarments & nightwear" .
+
+	gsp:UnderpantsPanties a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Underpants & Panties" ;
+		rdfs:comment "A product that is classified as underpants & panties" .
+
+	gsp:Undershirt a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Undershirts" ;
+		rdfs:comment "A product that is classified as undershirts" .
+
+	gsp:Uniform a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Uniforms" ;
+		rdfs:comment "A product that is classified as uniforms" .
+
+	gsp:Veil a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Veils" ;
+		rdfs:comment "A product that is classified as veils" .
+
+	gsp:Wallet a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Wallets" ;
+		rdfs:comment "A product that is classified as wallets" .
+
+	gsp:WeddingDress a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Wedding Dresses" ;
+		rdfs:comment "A product that is classified as wedding dresses" .
+
+	gsp:WorkwearUniformApron a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Workwear & Uniform Aprons" ;
+		rdfs:comment "A product that is classified as workwear & uniform aprons" .
+
+	gsp:WorkwearUniformBadge a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Workwear & Uniform Badges" ;
+		rdfs:comment "A product that is classified as workwear & uniform badges" .
+
+	gsp:WorkwearUniformBottom a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Workwear & Uniform Bottoms" ;
+		rdfs:comment "A product that is classified as workwear & uniform bottoms" .
+
+	gsp:WorkwearUniformDress a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Workwear & Uniform Dresses" ;
+		rdfs:comment "A product that is classified as workwear & uniform dresses" .
+
+	gsp:WorkwearUniformHat a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Workwear & Uniform Hats" ;
+		rdfs:comment "A product that is classified as workwear & uniform hats" .
+
+	gsp:WorkwearUniformJacketCoat a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Workwear & Uniform Jackets & Coats" ;
+		rdfs:comment "A product that is classified as workwear & uniform jackets & coats" .
+
+	gsp:WorkwearUniformOutfitSet a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Workwear & Uniform Outfit Sets" ;
+		rdfs:comment "A product that is classified as workwear & uniform outfit sets" .
+
+	gsp:WorkwearUniformRobe a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Workwear & Uniform Robes" ;
+		rdfs:comment "A product that is classified as workwear & uniform robes" .
+
+	gsp:WorkwearUniformTop a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Workwear & Uniform Tops" ;
+		rdfs:comment "A product that is classified as workwear & uniform tops" .
+
+	gsp:WorkwearUniformVest a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Workwear & Uniform Vests" ;
+		rdfs:comment "A product that is classified as workwear & uniform vests" .
+
+	gsp:WorkwearOverallCoverallProtectivePants a rdfs:Class, owl:Class ;
+		rdfs:isDefinedBy <http://gs1.org/vocab/product> ;
+		rdfs:subClassOf gsp:ClothingShoesAccessories ;
+		rdfs:label "Workwear Overalls Coveralls & Protective Pants" ;
+		rdfs:comment "A product that is classified as workwear overalls coveralls & protective pants" .
+
 	
 	
 	
